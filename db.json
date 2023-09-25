@@ -1,0 +1,39 @@
+{
+    "bands": [
+      {
+        "id": 1,
+        "name": "Linkin Park",
+        "image": "",
+        "audio-clip": "", 
+        "description": "Alternative rock band that debuted in 1996. Original band members: Mike Shinoda, Rob Bourdon, and Brad Delson. Top 3 songs: Numb(2003), In The End(2000), and Faint(2003)."
+      },
+      {
+        "id": 2,
+        "name": "Nirvana",
+        "image": "",
+        "audio-clip": "", 
+        "description":"Grunge band that debuted in 1987. Original band members: Kurt Cobain, Krist Novoselic, and Dave Grohl. Top 3 songs: Smells Like Teen Spirit(1991), Heart-Shaped Box(1993), and Lithium(1991)." 
+      },
+      {
+        "id": 3,
+        "name": "Five Finger Death Punch",
+        "image": "",
+        "audio-clip": "", 
+        "description": "Metal band that debuted in 2005. Original band memebers: Ivan Moody, Zolton Bathory, Caleb Andrew Bingham, Matt Snell, and Jeremy Spencer. Top 3 songs: The Bleeding(2005), Wrong Side of Heaven(2013), and Wash It All Away(2015)."
+      },
+      {
+        "id": 4,
+        "name": "Snoop Dogg",
+        "image": "",
+        "audio-clip": "", 
+        "description": "Rap/Reggae singer and song writer that debuted in 1991. Snoop Dogg's top 3 songs: Gin and Juice(1994), Nothin' But A G Thang(1992), and Drop It Like It's Hot(2004). "
+      },
+      {
+        "id": 5,
+        "name": "Taylor Swift",
+        "image": "",
+        "audio-clip": "",
+        "description": "Pop/Country singer and song writer that debuted in 2006. Taylor Swift's top 3 songs: I Don't Wanna Live Forever(2016), Blank Space(2014), and Shake It Off(2004)."
+      }
+    ]
+  }
