@@ -13,6 +13,8 @@ fetch("http://localhost:3000/bands")
         const addImage = document.createElement("img")
         //image rendered from db json
         addImage.src = band.image
+        //Haylee
+        addImage.alt = band.name
 
         const addDescription = document.createElement("h3")
         addDescription.innerText = band.description
@@ -33,4 +35,19 @@ fetch("http://localhost:3000/bands")
         //append elements
         divBandInfo.append(addH2,addImage,addDescription,likeButton)
     })
+    })
+
+    const form = document.getElementById('newBandForm')
+    form.addEventListener('submit', (event) =>{
+       event.preventDefault() 
+       const name = event.target.name.value
+       const image = event.target.image.value
+       const description = event.target.description.value
+       const newBand = {
+        name, 
+        image, 
+        description
+       }
+       band(newBand)
+       event.target.reset
     })
