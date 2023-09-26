@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
     <title>Favorite Band</title>
-    <script defer src=".index.js"></script>
+    <script defer src="./Index.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -17,7 +17,7 @@
             
                 <div id="main">
                     <ul id="Artist">
-                        <h1>Bands</h1>
+                        <h1 >Bands</h1>
                     </ul>    
                 </div>    
             </div>
@@ -38,6 +38,17 @@
         <div id="songContainer">
             <!-- two audio clips -->
         </div>
+         <!--new band form here-->
+         <form id = newBandForm>
+            <h4>New Bands Submission</h4>
+            <label for ='name'>Name:</label>
+            <input type="text" name="name" id="new-name" />
+            <label for="image">Image: </label>
+            <input type="text" name="image" id="new-image" />
+            <label for="new-description">Description: </label>
+            <input type="text" name="description" id="newDescription"/>
+            <input type="submit" value="Create" />
+        </form>
     </main>
 </body>
 
