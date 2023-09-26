@@ -28,9 +28,37 @@ fetch("http://localhost:3000/bands")
             + " Band Likes"
             
         })
+        // Audio event listener
+        // const addSound = document.createElement('')
+
+        addImage.addEventListener("mouseenter", () => {
+            bandSoundElement.pause()
+            bandSoundElement.play()
+            bandSoundElement.volume = 0.5;   
+            // console.log('mouuseenter')                 
+        })
+
+        const bandSoundElement = document.createElement('audio')
+        const bandSound = band.audioClip 
+        bandSoundElement.src = bandSound
+        bandSoundElement.id = "audioSound"
+
+        addImage.addEventListener("mouseleave", () => {
+            bandSoundElement.pause()
+            bandSoundElement.currentTime = 0;
+
+            // console.log(bandSoundElement)
+
+        })
+
+        addImage.addEventListener('mouseout', (e) => {
+        // console.log()
+    })
+
+        
 
 
         //append elements
-        divBandInfo.append(addH2,addImage,addDescription,likeButton)
+        divBandInfo.append(addH2,addImage,addDescription,likeButton,)
     })
     })
